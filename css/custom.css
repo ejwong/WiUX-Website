@@ -1,1 +1,20 @@
 /* your styles go here */
+
+#navigation {
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	background-color: #4b2e83;
+	padding-left: 10em;
+	padding-right: 10em;
+	right: 0;
+}
+
+#portfolio {
+	background-color: #999999;
+}
+
+h1 > a, h1 > a:link, h1 > a:visited, h1 > a:hover, a:active, a:hover { 
+	color:#4b2e83; 
+	text-decoration: none;
+}
